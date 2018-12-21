@@ -1,0 +1,14 @@
+package javaworks.ecybermissiondraft;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Inprint extends AppCompatActivity {
+    EditText editText;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_inprint);
+    }
+}
